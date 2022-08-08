@@ -1,0 +1,44 @@
+[project]
+name = "f1-22-telemetry"
+version = "0.0.1"
+authors = [
+  { name="Chris Hannam", email="ch@chrishannam.co.uk" },
+]
+description = "Decode F1 22 telemetry data."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/chrishannam/f1-22-telemetry"
+"Bug Tracker" = "https://github.com/chrishannam/f1-22-telemetry/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+exclude = '''
+(
+  /(
+      \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+  )/
+)
+'''
+skip-string-normalization = true

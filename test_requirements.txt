@@ -1,0 +1,4 @@
+build
+pre-commit
+pylint
+twine
