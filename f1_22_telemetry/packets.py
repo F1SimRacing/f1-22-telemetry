@@ -136,18 +136,12 @@ class CarMotionData(Packet):
         ("world_velocity_x", ctypes.c_float),  # Velocity in world space X
         ("world_velocity_y", ctypes.c_float),  # Velocity in world space Y
         ("world_velocity_z", ctypes.c_float),  # Velocity in world space Z
-        ("world_forward_dir_x", ctypes.c_int16),  # World space forward X direction
-        # (normalised)a
-        ("world_forward_dir_y", ctypes.c_int16),
-        # World space forward Y direction (normalised)
-        ("world_forward_dir_z", ctypes.c_int16),
-        # World space forward Z direction (normalised)
-        ("world_right_dir_x", ctypes.c_int16),
-        # World space right X direction (normalised)
-        ("world_right_dir_y", ctypes.c_int16),
-        # World space right Y direction (normalised)
-        ("world_right_dir_z", ctypes.c_int16),
-        # World space right Z direction (normalised)
+        ("world_forward_dir_x", ctypes.c_int16),  # World space forward X direction (normalised)
+        ("world_forward_dir_y", ctypes.c_int16),  # World space forward Y direction (normalised)
+        ("world_forward_dir_z", ctypes.c_int16),  # World space forward Z direction (normalised)
+        ("world_right_dir_x", ctypes.c_int16),  # World space right X direction (normalised)
+        ("world_right_dir_y", ctypes.c_int16),  # World space right Y direction (normalised)
+        ("world_right_dir_z", ctypes.c_int16),  # World space right Z direction (normalised)
         ("g_force_lateral", ctypes.c_float),  # Lateral G-Force component
         ("g_force_longitudinal", ctypes.c_float),  # Longitudinal G-Force component
         ("g_force_vertical", ctypes.c_float),  # Vertical G-Force component
@@ -161,8 +155,10 @@ class PacketMotionData(Packet):
     _fields_ = [
         ("header", PacketHeader),  # Header
         ("car_motion_data", CarMotionData * 22),  # Data for all cars on track
+
         # Extra player car ONLY data
         ("suspension_position", ctypes.c_float * 4),
+
         # Note: All wheel arrays have the following order:
         ("suspension_velocity", ctypes.c_float * 4),  # RL, RR, FL, FR
         ("suspension_acceleration", ctypes.c_float * 4),  # RL, RR, FL, FR
@@ -177,36 +173,31 @@ class PacketMotionData(Packet):
         ("angular_acceleration_x", ctypes.c_float),  # Angular velocity x-component
         ("angular_acceleration_y", ctypes.c_float),  # Angular velocity y-component
         ("angular_acceleration_z", ctypes.c_float),  # Angular velocity z-component
-        ("front_wheels_angle", ctypes.c_float),
-        # Current front wheels angle in radians
+        ("front_wheels_angle", ctypes.c_float),  # Current front wheels angle in radians
     ]
 
 
 class MarshalZone(Packet):
     _fields_ = [
-        ("zone_start", ctypes.c_float),
-        # Fraction (0..1) of way through the lap the marshal zone starts
-        ("zone_flag", ctypes.c_int8),
-        # -1 = invalid/unknown, 0 = none, 1 = green, 2 = blue, 3 = yellow, 4 = red
+        ("zone_start", ctypes.c_float),  # Fraction (0..1) of way through the lap the marshal zone starts
+        ("zone_flag", ctypes.c_int8),  # -1 = invalid/unknown, 0 = none, 1 = green, 2 = blue, 3 = yellow, 4 = red
     ]
 
 
 class WeatherForecastSample(Packet):
     _fields_ = [
-        ("session_type", ctypes.c_uint8),
         # 0 = unknown, 1 = P1, 2 = P2, 3 = P3, 4 = Short P, 5 = Q1
         # 6 = Q2, 7 = Q3, 8 = Short Q, 9 = OSQ, 10 = R, 11 = R2
-        # 12 = Time Trial
+        # 12 = R3, 13 = Time Trial
+        ("session_type", ctypes.c_uint8),
         ("time_offset", ctypes.c_uint8),  # Time in minutes the forecast is for
-        ("weather", ctypes.c_uint8),
         # Weather - 0 = clear, 1 = light cloud, 2 = overcast
         # 3 = light rain, 4 = heavy rain, 5 = storm
+        ("weather", ctypes.c_uint8),
         ("track_temperature", ctypes.c_int8),  # Track temp. in degrees Celsius
-        ("track_temperature_change", ctypes.c_int8),
-        # Track temp. change – 0 = up, 1 = down, 2 = no change
+        ("track_temperature_change", ctypes.c_int8),  # Track temp. change – 0 = up, 1 = down, 2 = no change
         ("air_temperature", ctypes.c_int8),  # Air temp. in degrees celsius
-        ("air_temperature_change", ctypes.c_int8),
-        # Air temp. change – 0 = up, 1 = down, 2 = no change
+        ("air_temperature_change", ctypes.c_int8),  # Air temp. change – 0 = up, 1 = down, 2 = no change
         ("rain_percentage", ctypes.c_uint8),  # Rain percentage (0-100)
     ]
 
@@ -214,21 +205,22 @@ class WeatherForecastSample(Packet):
 class PacketSessionData(Packet):
     _fields_ = [
         ("header", PacketHeader),  # Header
-        ("weather", ctypes.c_uint8),
         # Weather - 0 = clear, 1 = light cloud, 2 = overcast
         # 3 = light rain, 4 = heavy rain, 5 = storm
+        ("weather", ctypes.c_uint8),
         ("track_temperature", ctypes.c_int8),  # Track temp. in degrees celsius
         ("air_temperature", ctypes.c_int8),  # Air temp. in degrees celsius
         ("total_laps", ctypes.c_uint8),  # Total number of laps in this race
         ("track_length", ctypes.c_uint16),  # Track length in metres
+        # 0 = unknown, 1 = P1, 2 = P2, 3 = P3, 4 = Short P, 5 = Q1
+        # 6 = Q2, 7 = Q3, 8 = Short Q, 9 = OSQ, 10 = R, 11 = R2
+        # 12 = R3, 13 = Time Trial
         ("session_type", ctypes.c_uint8),
-        # 0 = unknown, 1 = P1, 2 = P2, 3 = P3, 4 = Short P
-        # 5 = Q1, 6 = Q2, 7 = Q3, 8 = Short Q, 9 = OSQ
-        # 10 = R, 11 = R2, 12 = R3, 13 = Time Trial
-        ("track_id", ctypes.c_int8),  # -1 for unknown, 0-21 for tracks, see appendix
-        ("formula", ctypes.c_uint8),
+        ("track_id", ctypes.c_int8),  # -1 for unknown, see appendix
         # Formula, 0 = F1 Modern, 1 = F1 Classic, 2 = F2,
-        # 3 = F1 Generic
+        # 3 = F1 Generic, 4 = Beta, 5 = Supercars
+        # 6 = Esports, 7 = F2 2021
+        ("formula", ctypes.c_uint8),
         ("session_time_left", ctypes.c_uint16),  # Time left in session in seconds
         ("session_duration", ctypes.c_uint16),  # Session duration in seconds
         ("pit_speed_limit", ctypes.c_uint8),  # Pit speed limit in kilometres per hour
@@ -239,8 +231,8 @@ class PacketSessionData(Packet):
         # SLI Pro support, 0 = inactive, 1 = active
         ("num_marshal_zones", ctypes.c_uint8),  # Number of marshal zones to follow
         ("marshal_zones", MarshalZone * 21),  # List of marshal zones – max 21
-        ("safety_car_status", ctypes.c_uint8),  # 0 = no safety car, 1 = full
-        # 2 = virtual, 3 = formation lap
+        # 0 = no safety car, 1 = full, 2 = virtual, 3 = formation lap
+        ("safety_car_status", ctypes.c_uint8),
         ("network_game", ctypes.c_uint8),  # 0 = offline, 1 = online
         ("num_weather_forecast_samples", ctypes.c_uint8),
         # Number of weather samples to follow
@@ -258,19 +250,21 @@ class PacketSessionData(Packet):
         # Ideal lap to pit on for current strategy (player)
         ("pit_stop_window_latest_lap", ctypes.c_uint8),
         # Latest lap to pit on for current strategy (player)
-        ("pit_stop_rejoin_position", ctypes.c_uint8),
-        # Predicted position to rejoin at (player)
+        ("pit_stop_rejoin_position", ctypes.c_uint8),  # Predicted position to rejoin at (player)
         ("steering_assist", ctypes.c_uint8),  # 0 = off, 1 = on
         ("braking_assist", ctypes.c_uint8),  # 0 = off, 1 = low, 2 = medium, 3 = high
-        ("gearbox_assist", ctypes.c_uint8),
-        # 1 = manual, 2 = manual & suggested gear, 3 = auto
+        ("gearbox_assist", ctypes.c_uint8),  # 1 = manual, 2 = manual & suggested gear, 3 = auto
         ("pit_assist", ctypes.c_uint8),  # 0 = off, 1 = on
         ("pit_release_assist", ctypes.c_uint8),  # 0 = off, 1 = on
-        ("ersassist", ctypes.c_uint8),  # 0 = off, 1 = on
-        ("drsassist", ctypes.c_uint8),  # 0 = off, 1 = on
-        ("dynamic_racing_line", ctypes.c_uint8),
-        # 0 = off, 1 = corners only, 2 = full
+        ("ers_assist", ctypes.c_uint8),  # 0 = off, 1 = on
+        ("drs_assist", ctypes.c_uint8),  # 0 = off, 1 = on
+        ("dynamic_racing_line", ctypes.c_uint8), # 0 = off, 1 = corners only, 2 = full
         ("dynamic_racing_line_type", ctypes.c_uint8),  # 0 = 2D, 1 = 3D
+        ("game_mode", ctypes.c_uint8),  # Game mode id - see appendix
+        ("rule_set", ctypes.c_uint8),  # Ruleset - see appendix
+        ("time_of_day", ctypes.c_uint32),  # Local time of day - minutes since midnight
+        ("session_length", ctypes.c_uint8),  # 0 = None, 2 = Very Short, 3 = Short, 4 = Medium
+        # 5 = Medium Long, 6 = Long, 7 = Full
     ]
 
 
@@ -313,12 +307,9 @@ class LapData(Packet):
         # 6 = not classified, 7 = retired
         ("pit_lane_timer_active", ctypes.c_uint8),
         # Pit lane timing, 0 = inactive, 1 = active
-        ("pit_lane_time_in_lane_in_ms", ctypes.c_uint16),
-        # If active, the current time spent in the pit lane in ms
-        ("pit_stop_timer_in_ms", ctypes.c_uint16),
-        # Time of the actual pit stop in ms
-        ("pit_stop_should_serve_pen", ctypes.c_uint8),
-        # Whether the car should serve a penalty at this stop
+        ("pit_lane_time_in_lane_in_ms", ctypes.c_uint16),  # If active, the current time spent in the pit lane in ms
+        ("pit_stop_timer_in_ms", ctypes.c_uint16),  # Time of the actual pit stop in ms
+        ("pit_stop_should_serve_pen", ctypes.c_uint8),  # Whether the car should serve a penalty at this stop
     ]
 
 
@@ -326,6 +317,8 @@ class PacketLapData(Packet):
     _fields_ = [
         ("header", PacketHeader),  # Header
         ("lap_data", LapData * 22),  # Lap data for all cars on track
+        ("time_trial_pb_car_idx", ctypes.c_uint8),
+        ("time_trial_rival_car_idx", ctypes.c_uint8),
     ]
 
 
@@ -358,12 +351,9 @@ class Penalty(Packet):
     _fields_ = [
         ("penalty_type", ctypes.c_uint8),  # Penalty type – see Appendices
         ("infringement_type", ctypes.c_uint8),  # Infringement type – see Appendices
-        ("vehicle_idx", ctypes.c_uint8),
-        # Vehicle index of the car the penalty is applied to
-        ("other_vehicle_idx", ctypes.c_uint8),
-        # Vehicle index of the other car involved
-        ("time", ctypes.c_uint8),
-        # Time gained, or time spent doing action in seconds
+        ("vehicle_idx", ctypes.c_uint8),  # Vehicle index of the car the penalty is applied to
+        ("other_vehicle_idx", ctypes.c_uint8),  # Vehicle index of the other car involved
+        ("time", ctypes.c_uint8),  # Time gained, or time spent doing action in seconds
         ("lap_num", ctypes.c_uint8),  # Lap the penalty occurred on
         ("places_gained", ctypes.c_uint8),  # Number of places gained by this
     ]
@@ -371,13 +361,13 @@ class Penalty(Packet):
 
 class SpeedTrap(Packet):
     _fields_ = [
-        ("vehicle_idx", ctypes.c_uint8),
-        # Vehicle index of the vehicle triggering speed trap
+        ("vehicle_idx", ctypes.c_uint8),  # Vehicle index of the vehicle triggering speed trap
         ("speed", ctypes.c_float),  # Top speed achieved in kilometres per hour
-        ("overall_fastest_in_session", ctypes.c_uint8),
-        # Overall fastest speed in session = 1, otherwise 0
-        ("driver_fastest_in_session", ctypes.c_uint8),
-        # Fastest speed for driver in session = 1, otherwise 0
+        ("overall_fastest_in_session", ctypes.c_uint8),  # Overall fastest speed in session = 1, otherwise 0
+        ("is_driver_fastest_in_session", ctypes.c_uint8),  # Fastest speed for driver in session = 1, otherwise 0
+        ("fastest_vehicle_idx_in_sSession", ctypes.c_uint8),  # Vehicle index of the vehicle that is the fastest
+        # in this session
+        ("fastest_speed_in_session", ctypes.c_float),  # Speed of the vehicle that is the fastest in this session
     ]
 
 
@@ -389,32 +379,49 @@ class StartLights(Packet):
 
 class DriveThroughPenaltyServed(Packet):
     _fields_ = [
-        ("vehicle_idx", ctypes.c_uint8),
-        # Vehicle index of the vehicle serving drive through
+        ("vehicle_idx", ctypes.c_uint8),  # Vehicle index of the vehicle serving drive through
     ]
 
 
 class StopGoPenaltyServed(Packet):
     _fields_ = [
-        ("vehicle_idx", ctypes.c_uint8),
-        # Vehicle index of the vehicle serving stop go
+        ("vehicle_idx", ctypes.c_uint8),  # Vehicle index of the vehicle serving stop go
     ]
 
 
 class Flashback(Packet):
     _fields_ = [
-        ("flashback_frame_identifier", ctypes.c_uint32),
-        # Frame identifier flashed back to
+        ("flashback_frame_identifier", ctypes.c_uint32),  # Frame identifier flashed back to
         ("flashback_session_time", ctypes.c_float),  # Session time flashed back to
     ]
 
 
 class Buttons(Packet):
     _fields_ = [
-        ("button_status", ctypes.c_uint32),
         # Bit flags specifying which buttons are being pressed
         # currently - see appendices
+        ("button_status", ctypes.c_uint32),
     ]
+
+
+"""
+Event | Code | Description
+Session Started | "SSTA" | Sent when the session starts
+Session Ended | "SEND" | Sent when the session ends
+Fastest Lap | "FTLP" | When a driver achieves the fastest lap
+Retirement | "RTMT" | When a driver retires
+DRS enabled | "DRSE" | Race control have enabled DRS
+DRS disabled | "DRSD" | Race control have disabled DRS
+Team mate in pits | "TMPT" | Your team mate has entered the pits
+Chequered flag | "CHQF" | The chequered flag has been waved
+Race Winner | "RCWN" | The race winner is announced
+Penalty Issued | "PENA" | A penalty has been issued – details in event
+Speed Trap Triggered | "SPTP" | Speed trap has been triggered by fastest speed
+Start lights | "STLG" | Start lights – number shown
+Lights out | "LGOT" | Lights out
+Drive through served | "DTSV" | Drive through penalty served
+Stop go served | "SGSV" | Stop go penalty served
+"""
 
 
 class EventDataDetails(ctypes.Union, PacketMixin):
@@ -445,21 +452,17 @@ class PacketEventData(Packet):
 
 class ParticipantData(Packet):
     _fields_ = [
-        ("ai_controlled", ctypes.c_uint8),
-        # Whether the vehicle is AI (1) or Human (0) controlled
-        ("driver_id", ctypes.c_uint8),
-        # Driver id - see appendix, 255 if network human
-        ("network_id", ctypes.c_uint8),
-        # Network id – unique identifier for network players
+        ("ai_controlled", ctypes.c_uint8),  # Whether the vehicle is AI (1) or Human (0) controlled
+        ("driver_id", ctypes.c_uint8),  # Driver id - see appendix, 255 if network human
+        ("network_id", ctypes.c_uint8),  # Network id – unique identifier for network players
         ("team_id", ctypes.c_uint8),  # Team id - see appendix
         ("my_team", ctypes.c_uint8),  # My team flag – 1 = My Team, 0 = otherwise
         ("race_number", ctypes.c_uint8),  # Race number of the car
         ("nationality", ctypes.c_uint8),  # Nationality of the driver
-        ("name", ctypes.c_char * 48),
         # Name of participant in UTF-8 format – null terminated
         # Will be truncated with … (U+2026) if too long
-        ("your_telemetry", ctypes.c_uint8),
-        # The player's UDP setting, 0 = restricted, 1 = public
+        ("name", ctypes.c_char * 48),
+        ("your_telemetry", ctypes.c_uint8),  # The player's UDP setting, 0 = restricted, 1 = public
     ]
 
 
@@ -494,12 +497,9 @@ class CarSetupData(Packet):
         ("brake_pressure", ctypes.c_uint8),  # Brake pressure (percentage)
         ("brake_bias", ctypes.c_uint8),  # Brake bias (percentage)
         ("rear_left_tyre_pressure", ctypes.c_float),  # Rear left tyre pressure (PSI)
-        ("rear_right_tyre_pressure", ctypes.c_float),
-        # Rear right tyre pressure (PSI)
-        ("front_left_tyre_pressure", ctypes.c_float),
-        # Front left tyre pressure (PSI)
-        ("front_right_tyre_pressure", ctypes.c_float),
-        # Front right tyre pressure (PSI)
+        ("rear_right_tyre_pressure", ctypes.c_float),  # Rear right tyre pressure (PSI)
+        ("front_left_tyre_pressure", ctypes.c_float),  # Front left tyre pressure (PSI)
+        ("front_right_tyre_pressure", ctypes.c_float),  # Front right tyre pressure (PSI)
         ("ballast", ctypes.c_uint8),  # Ballast
         ("fuel_load", ctypes.c_float),  # Fuel load
     ]
@@ -516,21 +516,17 @@ class CarTelemetryData(Packet):
     _fields_ = [
         ("speed", ctypes.c_uint16),  # Speed of car in kilometres per hour
         ("throttle", ctypes.c_float),  # Amount of throttle applied (0.0 to 1.0)
-        ("steer", ctypes.c_float),
-        # Steering (-1.0 (full lock left) to 1.0 (full lock right))
+        ("steer", ctypes.c_float),  # Steering (-1.0 (full lock left) to 1.0 (full lock right))
         ("brake", ctypes.c_float),  # Amount of brake applied (0.0 to 1.0)
         ("clutch", ctypes.c_uint8),  # Amount of clutch applied (0 to 100)
         ("gear", ctypes.c_int8),  # Gear selected (1-8, N=0, R=-1)
         ("engine_rpm", ctypes.c_uint16),  # Engine RPM
         ("drs", ctypes.c_uint8),  # 0 = off, 1 = on
         ("rev_lights_percent", ctypes.c_uint8),  # Rev lights indicator (percentage)
-        ("rev_lights_bit_value", ctypes.c_uint16),
-        # Rev lights (bit 0 = leftmost LED, bit 14 = rightmost LED)
+        ("rev_lights_bit_value", ctypes.c_uint16),  # Rev lights (bit 0 = leftmost LED, bit 14 = rightmost LED)
         ("brakes_temperature", ctypes.c_uint16 * 4),  # Brakes temperature (celsius)
-        ("tyres_surface_temperature", ctypes.c_uint8 * 4),
-        # Tyres surface temperature (celsius)
-        ("tyres_inner_temperature", ctypes.c_uint8 * 4),
-        # Tyres inner temperature (celsius)
+        ("tyres_surface_temperature", ctypes.c_uint8 * 4),  # Tyres surface temperature (celsius)
+        ("tyres_inner_temperature", ctypes.c_uint8 * 4),  # Tyres inner temperature (celsius)
         ("engine_temperature", ctypes.c_uint16),  # Engine temperature (celsius)
         ("tyres_pressure", ctypes.c_float * 4),  # Tyres pressure (PSI)
         ("surface_type", ctypes.c_uint8 * 4),  # Driving surface, see appendices
@@ -593,13 +589,10 @@ class CarStatusData(Packet):
         ("ers_deploy_mode", ctypes.c_uint8),
         # ERS deployment mode, 0 = none, 1 = medium
         # 2 = hotlap, 3 = overtake
-        ("ers_harvested_this_lap_mguk", ctypes.c_float),
-        # ERS energy harvested this lap by MGU-K
-        ("ers_harvested_this_lap_mguh", ctypes.c_float),
-        # ERS energy harvested this lap by MGU-H
+        ("ers_harvested_this_lap_mguk", ctypes.c_float),  # ERS energy harvested this lap by MGU-K
+        ("ers_harvested_this_lap_mguh", ctypes.c_float),  # ERS energy harvested this lap by MGU-H
         ("ers_deployed_this_lap", ctypes.c_float),  # ERS energy deployed this lap
-        ("network_paused", ctypes.c_uint8),
-        # Whether the car is paused in a network game
+        ("network_paused", ctypes.c_uint8),  # Whether the car is paused in a network game
     ]
 
 
@@ -622,17 +615,16 @@ class FinalClassificationData(Packet):
         # 3 = finished, 4 = didnotfinish, 5 = disqualified
         # 6 = not classified, 7 = retired
         # Best lap time of the session in milliseconds
-        ("best_lap_time_in_ms", ctypes.c_uint32),
-        # Total race time in seconds without penalties
+        ("best_lap_time_in_ms", ctypes.c_uint32),  # Total race time in seconds without penalties
         ("total_race_time", ctypes.c_double),
         ("penalties_time", ctypes.c_uint8),  # Total penalties accumulated in seconds
         # Number of penalties applied to this driver
         ("num_penalties", ctypes.c_uint8),
         ("num_tyre_stints", ctypes.c_uint8),  # Number of tyres stints up to maximum
         # Actual tyres used by this driver
-        ("tyre_stints_actual", ctypes.c_uint8 * 8),
-        # Visual tyres used by this driver
-        ("tyre_stints_visual", ctypes.c_uint8 * 8),
+        ("tyre_stints_actual", ctypes.c_uint8 * 8),  # Visual tyres used by this driver
+        ("tyre_stints_visual", ctypes.c_uint8 * 8),  # Visual tyres used by this driver
+        ("tyre_stints_end_laps", ctypes.c_uint8 * 8),  # The lap number stints end on
     ]
 
 
@@ -673,23 +665,24 @@ class CarDamageData(Packet):
         ("tyres_wear", ctypes.c_float * 4),  # Tyre wear (percentage)
         ("tyres_damage", ctypes.c_uint8 * 4),  # Tyre damage (percentage)
         ("brakes_damage", ctypes.c_uint8 * 4),  # Brakes damage (percentage)
-        # Front left wing damage (percentage)
-        ("front_left_wing_damage", ctypes.c_uint8),
-        # Front right wing damage (percentage)
-        ("front_right_wing_damage", ctypes.c_uint8),
+        ("front_left_wing_damage", ctypes.c_uint8),  # Front left wing damage (percentage)
+        ("front_right_wing_damage", ctypes.c_uint8),  # Front right wing damage (percentage)
         ("rear_wing_damage", ctypes.c_uint8),  # Rear wing damage (percentage)
         ("floor_damage", ctypes.c_uint8),  # Floor damage (percentage)
         ("diffuser_damage", ctypes.c_uint8),  # Diffuser damage (percentage)
         ("sidepod_damage", ctypes.c_uint8),  # Sidepod damage (percentage)
         ("drs_fault", ctypes.c_uint8),  # Indicator for DRS fault, 0 = OK, 1 = fault
-        ("gear_box_damage", ctypes.c_uint8),  # Gear box damage (percentage)
-        ("engine_damage", ctypes.c_uint8),  # Engine damage (percentage)
-        ("engine_mguhwear", ctypes.c_uint8),  # Engine wear MGU-H (percentage)
-        ("engine_eswear", ctypes.c_uint8),  # Engine wear ES (percentage)
-        ("engine_cewear", ctypes.c_uint8),  # Engine wear CE (percentage)
-        ("engine_icewear", ctypes.c_uint8),  # Engine wear ICE (percentage)
-        ("engine_mgukwear", ctypes.c_uint8),  # Engine wear MGU-K (percentage)
-        ("engine_tcwear", ctypes.c_uint8),  # Engine wear TC (percentage)
+        ("ers_fault", ctypes.c_uint8),  # Indicator for ERS fault, 0 = OK, 1 = fault
+        ("gearbox_damage", ctypes.c_uint8),  # Gear box damage (percentage)
+        ("engined_damage", ctypes.c_uint8),  # Engine damage (percentage)
+        ("engine_mguh_wear", ctypes.c_uint8),  # Engine wear MGU-H (percentage)
+        ("engine_energy_store_qear", ctypes.c_uint8),  # Engine wear ES (percentage)
+        ("engine_control_electronics_wear", ctypes.c_uint8),  # Engine wear CE (percentage)
+        ("engine_internal_combustion_engine_wear", ctypes.c_uint8),  # Engine wear ICE (percentage)
+        ("engine_mguk_wear", ctypes.c_uint8),  # Engine wear MGU-K (percentage)
+        ("engine_traction_control_wear", ctypes.c_uint8),  # Engine wear TC (percentage)
+        ("engine_blown", ctypes.c_uint8),  # Engine blown, 0 = OK, 1 = fault
+        ("engine_seized", ctypes.c_uint8),  # Engine seized, 0 = OK, 1 = fault
     ]
 
 
