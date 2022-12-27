@@ -7,7 +7,7 @@ post on the Codemasters forums. Which oddly works for F1 22, which is nice.
 
 Thanks to the hard work of the poster I was able to skip the tedious packet decoding.
 
-The updated F1 22 UDP specification is available [here](https://answers.ea.com/t5/General-Discussion/F1-22-UDP-Specification/td-p/11551274?attachment-id=607611) 
+The updated F1 22 UDP specification is available [here](https://answers.ea.com/t5/General-Discussion/F1-22-UDP-Specification/td-p/11551274?attachment-id=607611)
 
 # Installing
 

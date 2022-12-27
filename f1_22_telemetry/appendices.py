@@ -174,7 +174,7 @@ DRIVER_IDS = {
     134: "Dennis Hauger",
     135: "Calan Williams",
     136: "Jack Doohan",
-    137: "Amaury Cordeel"
+    137: "Amaury Cordeel",
 }
 
 

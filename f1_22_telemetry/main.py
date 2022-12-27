@@ -1,9 +1,4 @@
-import copy
 import json
-import pickle
-from pathlib import Path
-
-from f1_22_telemetry.packets import HEADER_FIELD_TO_PACKET_TYPE
 
 from f1_22_telemetry.listener import TelemetryListener
 
