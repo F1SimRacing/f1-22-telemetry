@@ -1,6 +1,6 @@
 [project]
 name = "f1-22-telemetry"
-version = "0.1.0"
+version = "0.1.1"
 authors = [
   { name="Chris Hannam", email="ch@chrishannam.co.uk" },
 ]
@@ -23,8 +23,8 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.black]
-line-length = 88
-target-version = ['py38']
+line-length = 120
+target-version >= ['py37']
 exclude = '''
 (
   /(
