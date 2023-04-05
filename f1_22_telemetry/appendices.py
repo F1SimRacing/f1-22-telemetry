@@ -1,6 +1,6 @@
 """
 More info is available here:
-https://answers.ea.com/t5/General-Discussion/F1-22-UDP-Specification/td-p/11551274?attachment-id=607611
+https://answers.ea.com/t5/General-Discussion/F1-22-UDP-Specification/td-p/11551274?attachment-id=657933
 """
 
 
@@ -47,6 +47,17 @@ TEAM_IDS = {
     115: 'BWT ‘21',
     116: 'Trident ‘21',
     117: 'Mercedes AMG GT Black Series',
+    118: "Prema ‘22",
+    119: "Virtuosi ‘22",
+    120: "Carlin ‘22",
+    121: "Hitech ‘22",
+    122: "Art GP ‘22",
+    123: "MP Motorsport ‘22",
+    124: "Charouz ‘22",
+    125: "Dams ‘22",
+    126: "Campos ‘22",
+    127: "Van Amersfoort Racing ‘22",
+    128: "Trident ‘22",
 }
 
 
@@ -175,6 +186,7 @@ DRIVER_IDS = {
     135: "Calan Williams",
     136: "Jack Doohan",
     137: "Amaury Cordeel",
+    138: "Mika Hakkinen",
 }
 
 
@@ -347,7 +359,7 @@ SURFACE_TYPES = {
     8: 'Water',
     9: 'Cobblestone',
     10: 'Metal',
-    11: 'Ridge',
+    11: 'Ridged',
 }
 
 
@@ -437,20 +449,20 @@ ACTUAL_TYRE_COMPOUND = {
     18: 'C3',
     19: 'C2',
     20: 'C1',  # hard
-    7: 'intermediates',
-    8: 'wet',
+    7: 'Intermediates',
+    8: 'Wet',
     # F1 Classic
-    9: 'dry',
-    10: 'wet',
+    9: 'Dry',
+    10: 'Wet',
     # F2
-    11: 'super soft',
-    12: 'soft',
-    13: 'medium',
-    14: 'hard',
-    15: 'wet',
+    11: 'Super soft',
+    12: 'Soft',
+    13: 'Medium',
+    14: 'Hard',
+    15: 'Wet',
 }
 
-# 3 compounds are chosen each weekend so they might not be a one to one match.
+# 3 compounds are chosen each weekend, so they might not be a one to one match.
 VISUAL_TYRE_COMPOUND = {
     16: 'soft',
     17: 'medium',
@@ -470,37 +482,71 @@ VISUAL_TYRE_COMPOUND = {
 
 
 WEATHER = {
-    0: 'clear',
-    1: 'light_cloud',
-    2: 'overcast',
-    3: 'light_rain',
-    4: 'heavy_rain',
-    5: 'storm',
+    0: 'Clear',
+    1: 'Light cloud',
+    2: 'Overcast',
+    3: 'Light rain',
+    4: 'Heavy rain',
+    5: 'Storm',
 }
 
 
 DRIVER_STATUS = {
-    0: 'in_garage',
-    1: 'flying_lap',
-    2: 'in_lap',
-    3: 'out_lap',
-    4: 'on_track',
+    0: 'In garage',
+    1: 'Flying lap',
+    2: 'In lap',
+    3: 'Out lap',
+    4: 'On track',
 }
 
 
 SESSION_TYPE = {
     0: 'unknown',
-    1: 'practice_1',
-    2: 'practice_2',
-    3: 'practice_3',
-    4: 'short_practice',
-    5: 'qualifying_1',
-    6: 'qualifying_2',
-    7: 'qualifying_3',
-    8: 'short_qualifying',
-    9: 'osq',
-    10: 'race',
-    11: 'race_2',
-    12: 'race_3',
-    13: 'time_trial',
+    1: 'Practice 1',
+    2: 'Practice 2',
+    3: 'Practice 3',
+    4: 'Short Practice',
+    5: 'Qualifying 1',
+    6: 'Qualifying 2',
+    7: 'Qualifying 3',
+    8: 'Short Qualifying',
+    9: 'One Shot Qualifying',
+    10: 'Race',
+    11: 'Race 2',
+    12: 'Race 3',
+    13: 'Time Trial',
+}
+
+
+FORMULA = {
+    0: "F1 Modern",
+    1: "F1 Classic",
+    2: "F2",
+    3: "F1 Generic",
+    4: "Beta",
+    5: "Supercars",
+    6: "Esports",
+    7: "F2 2021",
+}
+
+
+SAFETY_CAR_STATUS = {
+    0: "No safety car",
+    1: "Full",
+    2: "Virtual",
+    3: "Formation lap"
+}
+
+
+FORECAST_ACCURACY = {
+    0: "Perfect",
+    1: "Approximate"
+}
+
+
+ERS_DEPLOYMENT_MODE = {
+    0: "None",
+    1: "Medium",
+    2: "Hot lap",
+    3: "Overtake",
 }
