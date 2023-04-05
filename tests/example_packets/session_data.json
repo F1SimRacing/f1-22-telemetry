@@ -1,0 +1,702 @@
+{
+  "ai_difficulty": 56,
+  "air_temperature": 26,
+  "braking_assist": 0,
+  "drs_assist": 0,
+  "dynamic_racing_line": 2,
+  "dynamic_racing_line_type": 1,
+  "ers_assist": 0,
+  "forecast_accuracy": 0,
+  "formula": 0,
+  "game_mode": 3,
+  "game_paused": 0,
+  "gearbox_assist": 1,
+  "header": {
+    "frame_identifier": 34115,
+    "game_major_version": 1,
+    "game_minor_version": 19,
+    "packet_format": 2022,
+    "packet_id": 1,
+    "packet_version": 1,
+    "player_car_index": 19,
+    "secondary_player_car_index": 255,
+    "session_time": 1445.818,
+    "session_uid": 12079677482671850819
+  },
+  "is_spectating": 0,
+  "marshal_zones": [
+    {
+      "zone_flag": 0,
+      "zone_start": 0.954
+    },
+    {
+      "zone_flag": 0,
+      "zone_start": 0.108
+    },
+    {
+      "zone_flag": 0,
+      "zone_start": 0.173
+    },
+    {
+      "zone_flag": 0,
+      "zone_start": 0.254
+    },
+    {
+      "zone_flag": 0,
+      "zone_start": 0.321
+    },
+    {
+      "zone_flag": 0,
+      "zone_start": 0.352
+    },
+    {
+      "zone_flag": 0,
+      "zone_start": 0.378
+    },
+    {
+      "zone_flag": 0,
+      "zone_start": 0.412
+    },
+    {
+      "zone_flag": 0,
+      "zone_start": 0.445
+    },
+    {
+      "zone_flag": 0,
+      "zone_start": 0.483
+    },
+    {
+      "zone_flag": 0,
+      "zone_start": 0.513
+    },
+    {
+      "zone_flag": 0,
+      "zone_start": 0.626
+    },
+    {
+      "zone_flag": 0,
+      "zone_start": 0.661
+    },
+    {
+      "zone_flag": 0,
+      "zone_start": 0.694
+    },
+    {
+      "zone_flag": 0,
+      "zone_start": 0.75
+    },
+    {
+      "zone_flag": 0,
+      "zone_start": 0.802
+    },
+    {
+      "zone_flag": 0,
+      "zone_start": 0.891
+    },
+    {
+      "zone_flag": 0,
+      "zone_start": 0.0
+    },
+    {
+      "zone_flag": 0,
+      "zone_start": 0.0
+    },
+    {
+      "zone_flag": 0,
+      "zone_start": 0.0
+    },
+    {
+      "zone_flag": 0,
+      "zone_start": 0.0
+    }
+  ],
+  "network_game": 0,
+  "num_marshal_zones": 17,
+  "num_weather_forecast_samples": 41,
+  "pit_assist": 0,
+  "pit_release_assist": 1,
+  "pit_speed_limit": 80,
+  "pit_stop_rejoin_position": 0,
+  "pit_stop_window_ideal_lap": 0,
+  "pit_stop_window_latest_lap": 0,
+  "rule_set": 0,
+  "safety_car_status": 0,
+  "season_link_identifier": 1081320417,
+  "session_duration": 3600,
+  "session_length": 0,
+  "session_link_identifier": 1081320427,
+  "session_time_left": 2154,
+  "session_type": 2,
+  "sli_pro_native_support": 1,
+  "spectator_car_index": 255,
+  "steering_assist": 0,
+  "time_of_day": 1104,
+  "total_laps": 1,
+  "track_id": 3,
+  "track_length": 5408,
+  "track_temperature": 32,
+  "weather": 0,
+  "weather_forecast_samples": [
+    {
+      "air_temperature": 27,
+      "air_temperature_change": 2,
+      "rain_percentage": 3,
+      "session_type": 2,
+      "time_offset": 0,
+      "track_temperature": 33,
+      "track_temperature_change": 2,
+      "weather": 0
+    },
+    {
+      "air_temperature": 27,
+      "air_temperature_change": 2,
+      "rain_percentage": 3,
+      "session_type": 2,
+      "time_offset": 5,
+      "track_temperature": 33,
+      "track_temperature_change": 2,
+      "weather": 0
+    },
+    {
+      "air_temperature": 27,
+      "air_temperature_change": 2,
+      "rain_percentage": 3,
+      "session_type": 2,
+      "time_offset": 10,
+      "track_temperature": 33,
+      "track_temperature_change": 2,
+      "weather": 0
+    },
+    {
+      "air_temperature": 26,
+      "air_temperature_change": 1,
+      "rain_percentage": 3,
+      "session_type": 2,
+      "time_offset": 15,
+      "track_temperature": 33,
+      "track_temperature_change": 2,
+      "weather": 0
+    },
+    {
+      "air_temperature": 26,
+      "air_temperature_change": 2,
+      "rain_percentage": 3,
+      "session_type": 2,
+      "time_offset": 30,
+      "track_temperature": 33,
+      "track_temperature_change": 2,
+      "weather": 0
+    },
+    {
+      "air_temperature": 26,
+      "air_temperature_change": 2,
+      "rain_percentage": 4,
+      "session_type": 2,
+      "time_offset": 45,
+      "track_temperature": 32,
+      "track_temperature_change": 1,
+      "weather": 0
+    },
+    {
+      "air_temperature": 26,
+      "air_temperature_change": 2,
+      "rain_percentage": 4,
+      "session_type": 2,
+      "time_offset": 60,
+      "track_temperature": 32,
+      "track_temperature_change": 2,
+      "weather": 0
+    },
+    {
+      "air_temperature": 29,
+      "air_temperature_change": 0,
+      "rain_percentage": 3,
+      "session_type": 3,
+      "time_offset": 0,
+      "track_temperature": 36,
+      "track_temperature_change": 0,
+      "weather": 0
+    },
+    {
+      "air_temperature": 29,
+      "air_temperature_change": 2,
+      "rain_percentage": 3,
+      "session_type": 3,
+      "time_offset": 5,
+      "track_temperature": 36,
+      "track_temperature_change": 2,
+      "weather": 0
+    },
+    {
+      "air_temperature": 29,
+      "air_temperature_change": 2,
+      "rain_percentage": 3,
+      "session_type": 3,
+      "time_offset": 10,
+      "track_temperature": 36,
+      "track_temperature_change": 2,
+      "weather": 0
+    },
+    {
+      "air_temperature": 29,
+      "air_temperature_change": 2,
+      "rain_percentage": 3,
+      "session_type": 3,
+      "time_offset": 15,
+      "track_temperature": 36,
+      "track_temperature_change": 2,
+      "weather": 0
+    },
+    {
+      "air_temperature": 29,
+      "air_temperature_change": 2,
+      "rain_percentage": 3,
+      "session_type": 3,
+      "time_offset": 30,
+      "track_temperature": 36,
+      "track_temperature_change": 2,
+      "weather": 0
+    },
+    {
+      "air_temperature": 29,
+      "air_temperature_change": 2,
+      "rain_percentage": 3,
+      "session_type": 3,
+      "time_offset": 45,
+      "track_temperature": 36,
+      "track_temperature_change": 2,
+      "weather": 0
+    },
+    {
+      "air_temperature": 29,
+      "air_temperature_change": 2,
+      "rain_percentage": 3,
+      "session_type": 3,
+      "time_offset": 60,
+      "track_temperature": 36,
+      "track_temperature_change": 2,
+      "weather": 0
+    },
+    {
+      "air_temperature": 27,
+      "air_temperature_change": 2,
+      "rain_percentage": 7,
+      "session_type": 5,
+      "time_offset": 0,
+      "track_temperature": 33,
+      "track_temperature_change": 2,
+      "weather": 0
+    },
+    {
+      "air_temperature": 27,
+      "air_temperature_change": 2,
+      "rain_percentage": 7,
+      "session_type": 5,
+      "time_offset": 5,
+      "track_temperature": 33,
+      "track_temperature_change": 2,
+      "weather": 0
+    },
+    {
+      "air_temperature": 27,
+      "air_temperature_change": 2,
+      "rain_percentage": 7,
+      "session_type": 5,
+      "time_offset": 10,
+      "track_temperature": 33,
+      "track_temperature_change": 2,
+      "weather": 0
+    },
+    {
+      "air_temperature": 26,
+      "air_temperature_change": 1,
+      "rain_percentage": 7,
+      "session_type": 5,
+      "time_offset": 15,
+      "track_temperature": 33,
+      "track_temperature_change": 2,
+      "weather": 0
+    },
+    {
+      "air_temperature": 26,
+      "air_temperature_change": 2,
+      "rain_percentage": 8,
+      "session_type": 5,
+      "time_offset": 30,
+      "track_temperature": 32,
+      "track_temperature_change": 1,
+      "weather": 0
+    },
+    {
+      "air_temperature": 25,
+      "air_temperature_change": 1,
+      "rain_percentage": 9,
+      "session_type": 5,
+      "time_offset": 60,
+      "track_temperature": 31,
+      "track_temperature_change": 1,
+      "weather": 1
+    },
+    {
+      "air_temperature": 27,
+      "air_temperature_change": 2,
+      "rain_percentage": 7,
+      "session_type": 6,
+      "time_offset": 0,
+      "track_temperature": 33,
+      "track_temperature_change": 2,
+      "weather": 0
+    },
+    {
+      "air_temperature": 27,
+      "air_temperature_change": 2,
+      "rain_percentage": 7,
+      "session_type": 6,
+      "time_offset": 5,
+      "track_temperature": 33,
+      "track_temperature_change": 2,
+      "weather": 0
+    },
+    {
+      "air_temperature": 27,
+      "air_temperature_change": 2,
+      "rain_percentage": 7,
+      "session_type": 6,
+      "time_offset": 10,
+      "track_temperature": 33,
+      "track_temperature_change": 2,
+      "weather": 0
+    },
+    {
+      "air_temperature": 26,
+      "air_temperature_change": 1,
+      "rain_percentage": 7,
+      "session_type": 6,
+      "time_offset": 15,
+      "track_temperature": 33,
+      "track_temperature_change": 2,
+      "weather": 0
+    },
+    {
+      "air_temperature": 26,
+      "air_temperature_change": 2,
+      "rain_percentage": 8,
+      "session_type": 6,
+      "time_offset": 30,
+      "track_temperature": 32,
+      "track_temperature_change": 1,
+      "weather": 0
+    },
+    {
+      "air_temperature": 25,
+      "air_temperature_change": 1,
+      "rain_percentage": 9,
+      "session_type": 6,
+      "time_offset": 60,
+      "track_temperature": 31,
+      "track_temperature_change": 1,
+      "weather": 1
+    },
+    {
+      "air_temperature": 27,
+      "air_temperature_change": 2,
+      "rain_percentage": 7,
+      "session_type": 7,
+      "time_offset": 0,
+      "track_temperature": 33,
+      "track_temperature_change": 2,
+      "weather": 0
+    },
+    {
+      "air_temperature": 27,
+      "air_temperature_change": 2,
+      "rain_percentage": 7,
+      "session_type": 7,
+      "time_offset": 5,
+      "track_temperature": 33,
+      "track_temperature_change": 2,
+      "weather": 0
+    },
+    {
+      "air_temperature": 27,
+      "air_temperature_change": 2,
+      "rain_percentage": 7,
+      "session_type": 7,
+      "time_offset": 10,
+      "track_temperature": 33,
+      "track_temperature_change": 2,
+      "weather": 0
+    },
+    {
+      "air_temperature": 26,
+      "air_temperature_change": 1,
+      "rain_percentage": 7,
+      "session_type": 7,
+      "time_offset": 15,
+      "track_temperature": 33,
+      "track_temperature_change": 2,
+      "weather": 0
+    },
+    {
+      "air_temperature": 26,
+      "air_temperature_change": 2,
+      "rain_percentage": 8,
+      "session_type": 7,
+      "time_offset": 30,
+      "track_temperature": 32,
+      "track_temperature_change": 1,
+      "weather": 0
+    },
+    {
+      "air_temperature": 25,
+      "air_temperature_change": 1,
+      "rain_percentage": 9,
+      "session_type": 7,
+      "time_offset": 60,
+      "track_temperature": 31,
+      "track_temperature_change": 1,
+      "weather": 1
+    },
+    {
+      "air_temperature": 24,
+      "air_temperature_change": 1,
+      "rain_percentage": 3,
+      "session_type": 10,
+      "time_offset": 0,
+      "track_temperature": 30,
+      "track_temperature_change": 1,
+      "weather": 0
+    },
+    {
+      "air_temperature": 24,
+      "air_temperature_change": 2,
+      "rain_percentage": 3,
+      "session_type": 10,
+      "time_offset": 5,
+      "track_temperature": 30,
+      "track_temperature_change": 2,
+      "weather": 0
+    },
+    {
+      "air_temperature": 24,
+      "air_temperature_change": 2,
+      "rain_percentage": 3,
+      "session_type": 10,
+      "time_offset": 10,
+      "track_temperature": 30,
+      "track_temperature_change": 2,
+      "weather": 0
+    },
+    {
+      "air_temperature": 24,
+      "air_temperature_change": 2,
+      "rain_percentage": 3,
+      "session_type": 10,
+      "time_offset": 15,
+      "track_temperature": 30,
+      "track_temperature_change": 2,
+      "weather": 0
+    },
+    {
+      "air_temperature": 24,
+      "air_temperature_change": 2,
+      "rain_percentage": 3,
+      "session_type": 10,
+      "time_offset": 30,
+      "track_temperature": 29,
+      "track_temperature_change": 1,
+      "weather": 0
+    },
+    {
+      "air_temperature": 24,
+      "air_temperature_change": 2,
+      "rain_percentage": 3,
+      "session_type": 10,
+      "time_offset": 45,
+      "track_temperature": 29,
+      "track_temperature_change": 2,
+      "weather": 0
+    },
+    {
+      "air_temperature": 24,
+      "air_temperature_change": 2,
+      "rain_percentage": 3,
+      "session_type": 10,
+      "time_offset": 60,
+      "track_temperature": 29,
+      "track_temperature_change": 2,
+      "weather": 0
+    },
+    {
+      "air_temperature": 23,
+      "air_temperature_change": 1,
+      "rain_percentage": 6,
+      "session_type": 10,
+      "time_offset": 90,
+      "track_temperature": 28,
+      "track_temperature_change": 1,
+      "weather": 1
+    },
+    {
+      "air_temperature": 22,
+      "air_temperature_change": 1,
+      "rain_percentage": 8,
+      "session_type": 10,
+      "time_offset": 120,
+      "track_temperature": 27,
+      "track_temperature_change": 1,
+      "weather": 1
+    },
+    {
+      "air_temperature": 0,
+      "air_temperature_change": 0,
+      "rain_percentage": 0,
+      "session_type": 0,
+      "time_offset": 0,
+      "track_temperature": 0,
+      "track_temperature_change": 0,
+      "weather": 0
+    },
+    {
+      "air_temperature": 0,
+      "air_temperature_change": 0,
+      "rain_percentage": 0,
+      "session_type": 0,
+      "time_offset": 0,
+      "track_temperature": 0,
+      "track_temperature_change": 0,
+      "weather": 0
+    },
+    {
+      "air_temperature": 0,
+      "air_temperature_change": 0,
+      "rain_percentage": 0,
+      "session_type": 0,
+      "time_offset": 0,
+      "track_temperature": 0,
+      "track_temperature_change": 0,
+      "weather": 0
+    },
+    {
+      "air_temperature": 0,
+      "air_temperature_change": 0,
+      "rain_percentage": 0,
+      "session_type": 0,
+      "time_offset": 0,
+      "track_temperature": 0,
+      "track_temperature_change": 0,
+      "weather": 0
+    },
+    {
+      "air_temperature": 0,
+      "air_temperature_change": 0,
+      "rain_percentage": 0,
+      "session_type": 0,
+      "time_offset": 0,
+      "track_temperature": 0,
+      "track_temperature_change": 0,
+      "weather": 0
+    },
+    {
+      "air_temperature": 0,
+      "air_temperature_change": 0,
+      "rain_percentage": 0,
+      "session_type": 0,
+      "time_offset": 0,
+      "track_temperature": 0,
+      "track_temperature_change": 0,
+      "weather": 0
+    },
+    {
+      "air_temperature": 0,
+      "air_temperature_change": 0,
+      "rain_percentage": 0,
+      "session_type": 0,
+      "time_offset": 0,
+      "track_temperature": 0,
+      "track_temperature_change": 0,
+      "weather": 0
+    },
+    {
+      "air_temperature": 0,
+      "air_temperature_change": 0,
+      "rain_percentage": 0,
+      "session_type": 0,
+      "time_offset": 0,
+      "track_temperature": 0,
+      "track_temperature_change": 0,
+      "weather": 0
+    },
+    {
+      "air_temperature": 0,
+      "air_temperature_change": 0,
+      "rain_percentage": 0,
+      "session_type": 0,
+      "time_offset": 0,
+      "track_temperature": 0,
+      "track_temperature_change": 0,
+      "weather": 0
+    },
+    {
+      "air_temperature": 0,
+      "air_temperature_change": 0,
+      "rain_percentage": 0,
+      "session_type": 0,
+      "time_offset": 0,
+      "track_temperature": 0,
+      "track_temperature_change": 0,
+      "weather": 0
+    },
+    {
+      "air_temperature": 0,
+      "air_temperature_change": 0,
+      "rain_percentage": 0,
+      "session_type": 0,
+      "time_offset": 0,
+      "track_temperature": 0,
+      "track_temperature_change": 0,
+      "weather": 0
+    },
+    {
+      "air_temperature": 0,
+      "air_temperature_change": 0,
+      "rain_percentage": 0,
+      "session_type": 0,
+      "time_offset": 0,
+      "track_temperature": 0,
+      "track_temperature_change": 0,
+      "weather": 0
+    },
+    {
+      "air_temperature": 0,
+      "air_temperature_change": 0,
+      "rain_percentage": 0,
+      "session_type": 0,
+      "time_offset": 0,
+      "track_temperature": 0,
+      "track_temperature_change": 0,
+      "weather": 0
+    },
+    {
+      "air_temperature": 0,
+      "air_temperature_change": 0,
+      "rain_percentage": 0,
+      "session_type": 0,
+      "time_offset": 0,
+      "track_temperature": 0,
+      "track_temperature_change": 0,
+      "weather": 0
+    },
+    {
+      "air_temperature": 0,
+      "air_temperature_change": 0,
+      "rain_percentage": 0,
+      "session_type": 0,
+      "time_offset": 0,
+      "track_temperature": 0,
+      "track_temperature_change": 0,
+      "weather": 0
+    }
+  ],
+  "weekend_link_identifier": 1081320417
+}

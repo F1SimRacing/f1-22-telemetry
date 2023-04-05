@@ -1,26 +1,29 @@
 [project]
 name = "f1-22-telemetry"
-version = "0.2.0"
-authors = [
-  { name="Chris Hannam", email="ch@chrishannam.co.uk" },
-]
+version = "0.1.1"
 description = "Decode F1 22 telemetry data."
-readme = "README.md"
-license = { file="LICENSE" }
-requires-python = ">=3.7"
-classifiers = [
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
+authors = [
+    {name = "Chris Hannam", email = "ch@chrishannam.co.uk"},
 ]
-
+dependencies = [
+    "pydantic>=1.10.7",
+]
+readme = "README.md"
+license = {text = "MIT"}
+classifiers = [
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+]
+requires-python = ">=3.7"
 [project.urls]
-"Homepage" = "https://github.com/chrishannam/f1-22-telemetry"
-"Bug Tracker" = "https://github.com/chrishannam/f1-22-telemetry/issues"
+Homepage = "https://github.com/chrishannam/f1-22-telemetry"
+[project.scripts]
+telemetry-f1-2022-recorder = "f1_22_telemetry.main:main"
 
 [build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
 
 [tool.black]
 line-length = 120
@@ -41,3 +44,12 @@ exclude = '''
 )
 '''
 skip-string-normalization = true
+
+[tool.pdm]
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest>=7.2.2",
+    "pytest-cov>=4.0.0",
+    "pre-commit>=2.21.0",
+    "twine>=4.0.2",
+]

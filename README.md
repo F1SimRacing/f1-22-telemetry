@@ -35,3 +35,8 @@ pip install --upgrade build twine
 python -m build
 python3 -m twine upload f1-22-telemetry
 ```
+
+# Developing
+```commandline
+pip install pdm
+```

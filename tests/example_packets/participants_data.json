@@ -1,0 +1,259 @@
+{
+  "header": {
+    "frame_identifier": 52236,
+    "game_major_version": 1,
+    "game_minor_version": 19,
+    "packet_format": 2022,
+    "packet_id": 4,
+    "packet_version": 1,
+    "player_car_index": 19,
+    "secondary_player_car_index": 255,
+    "session_time": 2188.663,
+    "session_uid": 12079677482671850819
+  },
+  "num_active_cars": 20,
+  "participants": [
+    {
+      "ai_controlled": 1,
+      "driver_id": 13,
+      "my_team": 0,
+      "name": "VETTEL",
+      "nationality": 29,
+      "network_id": 255,
+      "race_number": 5,
+      "team_id": 4,
+      "your_telemetry": 1
+    },
+    {
+      "ai_controlled": 1,
+      "driver_id": 3,
+      "my_team": 0,
+      "name": "ALONSO",
+      "nationality": 77,
+      "network_id": 255,
+      "race_number": 14,
+      "team_id": 5,
+      "your_telemetry": 1
+    },
+    {
+      "ai_controlled": 1,
+      "driver_id": 63,
+      "my_team": 0,
+      "name": "LATIFI",
+      "nationality": 13,
+      "network_id": 255,
+      "race_number": 6,
+      "team_id": 3,
+      "your_telemetry": 1
+    },
+    {
+      "ai_controlled": 1,
+      "driver_id": 81,
+      "my_team": 0,
+      "name": "SCHUMACHER",
+      "nationality": 29,
+      "network_id": 255,
+      "race_number": 47,
+      "team_id": 7,
+      "your_telemetry": 1
+    },
+    {
+      "ai_controlled": 1,
+      "driver_id": 9,
+      "my_team": 0,
+      "name": "VERSTAPPEN",
+      "nationality": 22,
+      "network_id": 255,
+      "race_number": 33,
+      "team_id": 2,
+      "your_telemetry": 1
+    },
+    {
+      "ai_controlled": 1,
+      "driver_id": 2,
+      "my_team": 0,
+      "name": "RICCIARDO",
+      "nationality": 3,
+      "network_id": 255,
+      "race_number": 3,
+      "team_id": 8,
+      "your_telemetry": 1
+    },
+    {
+      "ai_controlled": 1,
+      "driver_id": 14,
+      "my_team": 0,
+      "name": "PÉREZ",
+      "nationality": 52,
+      "network_id": 255,
+      "race_number": 11,
+      "team_id": 2,
+      "your_telemetry": 1
+    },
+    {
+      "ai_controlled": 1,
+      "driver_id": 17,
+      "my_team": 0,
+      "name": "OCON",
+      "nationality": 28,
+      "network_id": 255,
+      "race_number": 31,
+      "team_id": 5,
+      "your_telemetry": 1
+    },
+    {
+      "ai_controlled": 1,
+      "driver_id": 19,
+      "my_team": 0,
+      "name": "STROLL",
+      "nationality": 13,
+      "network_id": 255,
+      "race_number": 18,
+      "team_id": 4,
+      "your_telemetry": 1
+    },
+    {
+      "ai_controlled": 1,
+      "driver_id": 94,
+      "my_team": 0,
+      "name": "TSUNODA",
+      "nationality": 43,
+      "network_id": 255,
+      "race_number": 22,
+      "team_id": 6,
+      "your_telemetry": 1
+    },
+    {
+      "ai_controlled": 1,
+      "driver_id": 15,
+      "my_team": 0,
+      "name": "BOTTAS",
+      "nationality": 27,
+      "network_id": 255,
+      "race_number": 77,
+      "team_id": 9,
+      "your_telemetry": 1
+    },
+    {
+      "ai_controlled": 1,
+      "driver_id": 62,
+      "my_team": 0,
+      "name": "ALBON",
+      "nationality": 80,
+      "network_id": 255,
+      "race_number": 23,
+      "team_id": 3,
+      "your_telemetry": 1
+    },
+    {
+      "ai_controlled": 1,
+      "driver_id": 11,
+      "my_team": 0,
+      "name": "MAGNUSSEN",
+      "nationality": 21,
+      "network_id": 255,
+      "race_number": 20,
+      "team_id": 7,
+      "your_telemetry": 1
+    },
+    {
+      "ai_controlled": 1,
+      "driver_id": 50,
+      "my_team": 0,
+      "name": "RUSSELL",
+      "nationality": 10,
+      "network_id": 255,
+      "race_number": 63,
+      "team_id": 0,
+      "your_telemetry": 1
+    },
+    {
+      "ai_controlled": 1,
+      "driver_id": 7,
+      "my_team": 0,
+      "name": "HAMILTON",
+      "nationality": 10,
+      "network_id": 255,
+      "race_number": 44,
+      "team_id": 0,
+      "your_telemetry": 1
+    },
+    {
+      "ai_controlled": 1,
+      "driver_id": 80,
+      "my_team": 0,
+      "name": "ZHOU",
+      "nationality": 15,
+      "network_id": 255,
+      "race_number": 24,
+      "team_id": 9,
+      "your_telemetry": 1
+    },
+    {
+      "ai_controlled": 1,
+      "driver_id": 54,
+      "my_team": 0,
+      "name": "NORRIS",
+      "nationality": 10,
+      "network_id": 255,
+      "race_number": 4,
+      "team_id": 8,
+      "your_telemetry": 1
+    },
+    {
+      "ai_controlled": 1,
+      "driver_id": 59,
+      "my_team": 0,
+      "name": "GASLY",
+      "nationality": 28,
+      "network_id": 255,
+      "race_number": 10,
+      "team_id": 6,
+      "your_telemetry": 1
+    },
+    {
+      "ai_controlled": 1,
+      "driver_id": 0,
+      "my_team": 0,
+      "name": "SAINZ",
+      "nationality": 77,
+      "network_id": 255,
+      "race_number": 55,
+      "team_id": 1,
+      "your_telemetry": 1
+    },
+    {
+      "ai_controlled": 0,
+      "driver_id": 58,
+      "my_team": 0,
+      "name": "LECLERC",
+      "nationality": 53,
+      "network_id": 255,
+      "race_number": 16,
+      "team_id": 1,
+      "your_telemetry": 1
+    },
+    {
+      "ai_controlled": 0,
+      "driver_id": 255,
+      "my_team": 0,
+      "name": "",
+      "nationality": 255,
+      "network_id": 255,
+      "race_number": 0,
+      "team_id": 255,
+      "your_telemetry": 0
+    },
+    {
+      "ai_controlled": 0,
+      "driver_id": 255,
+      "my_team": 0,
+      "name": "",
+      "nationality": 255,
+      "network_id": 255,
+      "race_number": 0,
+      "team_id": 255,
+      "your_telemetry": 0
+    }
+  ]
+}

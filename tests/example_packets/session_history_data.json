@@ -1,0 +1,765 @@
+{
+  "header": {
+    "packet_format": 2022,
+    "game_major_version": 1,
+    "game_minor_version": 19,
+    "packet_version": 1,
+    "packet_id": 11,
+    "session_uid": 10693487545566621932,
+    "session_time": 1.231,
+    "frame_identifier": 39,
+    "player_car_index": 19,
+    "secondary_player_car_index": 255
+  },
+  "car_idx": 0,
+  "num_laps": 2,
+  "num_tyre_stints": 1,
+  "best_lap_time_lap_num": 1,
+  "best_sector1_lap_num": 1,
+  "best_sector2_lap_num": 1,
+  "best_sector3_lap_num": 1,
+  "lap_history_data": [
+    {
+      "lap_time_in_ms": 106844,
+      "sector1_time_in_ms": 39451,
+      "sector2_time_in_ms": 43319,
+      "sector3_time_in_ms": 24073,
+      "lap_valid_bit_flags": 15
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 15
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    },
+    {
+      "lap_time_in_ms": 0,
+      "sector1_time_in_ms": 0,
+      "sector2_time_in_ms": 0,
+      "sector3_time_in_ms": 0,
+      "lap_valid_bit_flags": 0
+    }
+  ],
+  "tyre_stints_history_data": [
+    {
+      "end_lap": 255,
+      "tyre_actual_compound": "C2",
+      "tyre_visual_compound": "medium"
+    },
+    {
+      "end_lap": 0,
+      "tyre_actual_compound": 0,
+      "tyre_visual_compound": 0
+    },
+    {
+      "end_lap": 0,
+      "tyre_actual_compound": 0,
+      "tyre_visual_compound": 0
+    },
+    {
+      "end_lap": 0,
+      "tyre_actual_compound": 0,
+      "tyre_visual_compound": 0
+    },
+    {
+      "end_lap": 0,
+      "tyre_actual_compound": 0,
+      "tyre_visual_compound": 0
+    },
+    {
+      "end_lap": 0,
+      "tyre_actual_compound": 0,
+      "tyre_visual_compound": 0
+    },
+    {
+      "end_lap": 0,
+      "tyre_actual_compound": 0,
+      "tyre_visual_compound": 0
+    },
+    {
+      "end_lap": 0,
+      "tyre_actual_compound": 0,
+      "tyre_visual_compound": 0
+    }
+  ]
+}

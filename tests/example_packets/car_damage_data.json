@@ -1,0 +1,852 @@
+{
+  "car_damage_data": [
+    {
+      "brakes_damage": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "diffuser_damage": 0,
+      "drs_fault": 0,
+      "engine_blown": 0,
+      "engine_control_electronics_wear": 0,
+      "engine_energy_store_qear": 0,
+      "engine_internal_combustion_engine_wear": 0,
+      "engine_mguh_wear": 0,
+      "engine_mguk_wear": 0,
+      "engine_seized": 0,
+      "engine_traction_control_wear": 0,
+      "engined_damage": 0,
+      "ers_fault": 0,
+      "floor_damage": 0,
+      "front_left_wing_damage": 0,
+      "front_right_wing_damage": 0,
+      "gearbox_damage": 0,
+      "rear_wing_damage": 0,
+      "sidepod_damage": 0,
+      "tyres_damage": [
+        3,
+        3,
+        2,
+        2
+      ],
+      "tyres_wear": [
+        3.4607796669006348,
+        3.2493205070495605,
+        2.421564817428589,
+        2.3927061557769775
+      ]
+    },
+    {
+      "brakes_damage": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "diffuser_damage": 0,
+      "drs_fault": 0,
+      "engine_blown": 0,
+      "engine_control_electronics_wear": 0,
+      "engine_energy_store_qear": 0,
+      "engine_internal_combustion_engine_wear": 0,
+      "engine_mguh_wear": 0,
+      "engine_mguk_wear": 0,
+      "engine_seized": 0,
+      "engine_traction_control_wear": 0,
+      "engined_damage": 0,
+      "ers_fault": 0,
+      "floor_damage": 0,
+      "front_left_wing_damage": 0,
+      "front_right_wing_damage": 0,
+      "gearbox_damage": 0,
+      "rear_wing_damage": 0,
+      "sidepod_damage": 0,
+      "tyres_damage": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "tyres_wear": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "brakes_damage": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "diffuser_damage": 0,
+      "drs_fault": 0,
+      "engine_blown": 0,
+      "engine_control_electronics_wear": 0,
+      "engine_energy_store_qear": 0,
+      "engine_internal_combustion_engine_wear": 0,
+      "engine_mguh_wear": 0,
+      "engine_mguk_wear": 0,
+      "engine_seized": 0,
+      "engine_traction_control_wear": 0,
+      "engined_damage": 0,
+      "ers_fault": 0,
+      "floor_damage": 0,
+      "front_left_wing_damage": 0,
+      "front_right_wing_damage": 0,
+      "gearbox_damage": 0,
+      "rear_wing_damage": 0,
+      "sidepod_damage": 0,
+      "tyres_damage": [
+        8,
+        8,
+        6,
+        6
+      ],
+      "tyres_wear": [
+        8.795766830444336,
+        8.305176734924316,
+        6.561031818389893,
+        6.649896621704102
+      ]
+    },
+    {
+      "brakes_damage": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "diffuser_damage": 0,
+      "drs_fault": 0,
+      "engine_blown": 0,
+      "engine_control_electronics_wear": 0,
+      "engine_energy_store_qear": 0,
+      "engine_internal_combustion_engine_wear": 0,
+      "engine_mguh_wear": 0,
+      "engine_mguk_wear": 0,
+      "engine_seized": 0,
+      "engine_traction_control_wear": 0,
+      "engined_damage": 0,
+      "ers_fault": 0,
+      "floor_damage": 0,
+      "front_left_wing_damage": 0,
+      "front_right_wing_damage": 0,
+      "gearbox_damage": 0,
+      "rear_wing_damage": 0,
+      "sidepod_damage": 0,
+      "tyres_damage": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "tyres_wear": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "brakes_damage": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "diffuser_damage": 0,
+      "drs_fault": 0,
+      "engine_blown": 0,
+      "engine_control_electronics_wear": 0,
+      "engine_energy_store_qear": 0,
+      "engine_internal_combustion_engine_wear": 0,
+      "engine_mguh_wear": 0,
+      "engine_mguk_wear": 0,
+      "engine_seized": 0,
+      "engine_traction_control_wear": 0,
+      "engined_damage": 0,
+      "ers_fault": 0,
+      "floor_damage": 0,
+      "front_left_wing_damage": 0,
+      "front_right_wing_damage": 0,
+      "gearbox_damage": 0,
+      "rear_wing_damage": 0,
+      "sidepod_damage": 0,
+      "tyres_damage": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "tyres_wear": [
+        2.889056921005249,
+        2.717996120452881,
+        2.0478157997131348,
+        2.2602553367614746
+      ]
+    },
+    {
+      "brakes_damage": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "diffuser_damage": 0,
+      "drs_fault": 0,
+      "engine_blown": 0,
+      "engine_control_electronics_wear": 0,
+      "engine_energy_store_qear": 0,
+      "engine_internal_combustion_engine_wear": 0,
+      "engine_mguh_wear": 0,
+      "engine_mguk_wear": 0,
+      "engine_seized": 0,
+      "engine_traction_control_wear": 0,
+      "engined_damage": 0,
+      "ers_fault": 0,
+      "floor_damage": 0,
+      "front_left_wing_damage": 0,
+      "front_right_wing_damage": 0,
+      "gearbox_damage": 0,
+      "rear_wing_damage": 0,
+      "sidepod_damage": 0,
+      "tyres_damage": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "tyres_wear": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "brakes_damage": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "diffuser_damage": 0,
+      "drs_fault": 0,
+      "engine_blown": 0,
+      "engine_control_electronics_wear": 0,
+      "engine_energy_store_qear": 0,
+      "engine_internal_combustion_engine_wear": 0,
+      "engine_mguh_wear": 0,
+      "engine_mguk_wear": 0,
+      "engine_seized": 0,
+      "engine_traction_control_wear": 0,
+      "engined_damage": 0,
+      "ers_fault": 0,
+      "floor_damage": 0,
+      "front_left_wing_damage": 0,
+      "front_right_wing_damage": 0,
+      "gearbox_damage": 0,
+      "rear_wing_damage": 0,
+      "sidepod_damage": 0,
+      "tyres_damage": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "tyres_wear": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "brakes_damage": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "diffuser_damage": 0,
+      "drs_fault": 0,
+      "engine_blown": 0,
+      "engine_control_electronics_wear": 0,
+      "engine_energy_store_qear": 0,
+      "engine_internal_combustion_engine_wear": 0,
+      "engine_mguh_wear": 0,
+      "engine_mguk_wear": 0,
+      "engine_seized": 0,
+      "engine_traction_control_wear": 0,
+      "engined_damage": 0,
+      "ers_fault": 0,
+      "floor_damage": 0,
+      "front_left_wing_damage": 0,
+      "front_right_wing_damage": 0,
+      "gearbox_damage": 0,
+      "rear_wing_damage": 0,
+      "sidepod_damage": 0,
+      "tyres_damage": [
+        12,
+        12,
+        9,
+        10
+      ],
+      "tyres_wear": [
+        12.727871894836426,
+        12.002599716186523,
+        9.294230461120605,
+        10.002220153808594
+      ]
+    },
+    {
+      "brakes_damage": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "diffuser_damage": 0,
+      "drs_fault": 0,
+      "engine_blown": 0,
+      "engine_control_electronics_wear": 0,
+      "engine_energy_store_qear": 0,
+      "engine_internal_combustion_engine_wear": 0,
+      "engine_mguh_wear": 0,
+      "engine_mguk_wear": 0,
+      "engine_seized": 0,
+      "engine_traction_control_wear": 0,
+      "engined_damage": 0,
+      "ers_fault": 0,
+      "floor_damage": 0,
+      "front_left_wing_damage": 0,
+      "front_right_wing_damage": 0,
+      "gearbox_damage": 0,
+      "rear_wing_damage": 0,
+      "sidepod_damage": 0,
+      "tyres_damage": [
+        9,
+        9,
+        6,
+        6
+      ],
+      "tyres_wear": [
+        9.797015190124512,
+        9.210488319396973,
+        6.926731109619141,
+        6.975805759429932
+      ]
+    },
+    {
+      "brakes_damage": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "diffuser_damage": 0,
+      "drs_fault": 0,
+      "engine_blown": 0,
+      "engine_control_electronics_wear": 0,
+      "engine_energy_store_qear": 0,
+      "engine_internal_combustion_engine_wear": 0,
+      "engine_mguh_wear": 0,
+      "engine_mguk_wear": 0,
+      "engine_seized": 0,
+      "engine_traction_control_wear": 0,
+      "engined_damage": 0,
+      "ers_fault": 0,
+      "floor_damage": 0,
+      "front_left_wing_damage": 0,
+      "front_right_wing_damage": 0,
+      "gearbox_damage": 0,
+      "rear_wing_damage": 0,
+      "sidepod_damage": 0,
+      "tyres_damage": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "tyres_wear": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "brakes_damage": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "diffuser_damage": 0,
+      "drs_fault": 0,
+      "engine_blown": 0,
+      "engine_control_electronics_wear": 0,
+      "engine_energy_store_qear": 0,
+      "engine_internal_combustion_engine_wear": 0,
+      "engine_mguh_wear": 0,
+      "engine_mguk_wear": 0,
+      "engine_seized": 0,
+      "engine_traction_control_wear": 0,
+      "engined_damage": 0,
+      "ers_fault": 0,
+      "floor_damage": 0,
+      "front_left_wing_damage": 0,
+      "front_right_wing_damage": 0,
+      "gearbox_damage": 0,
+      "rear_wing_damage": 0,
+      "sidepod_damage": 0,
+      "tyres_damage": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "tyres_wear": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "brakes_damage": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "diffuser_damage": 0,
+      "drs_fault": 0,
+      "engine_blown": 0,
+      "engine_control_electronics_wear": 0,
+      "engine_energy_store_qear": 0,
+      "engine_internal_combustion_engine_wear": 0,
+      "engine_mguh_wear": 0,
+      "engine_mguk_wear": 0,
+      "engine_seized": 0,
+      "engine_traction_control_wear": 0,
+      "engined_damage": 0,
+      "ers_fault": 0,
+      "floor_damage": 0,
+      "front_left_wing_damage": 0,
+      "front_right_wing_damage": 0,
+      "gearbox_damage": 0,
+      "rear_wing_damage": 0,
+      "sidepod_damage": 0,
+      "tyres_damage": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "tyres_wear": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "brakes_damage": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "diffuser_damage": 0,
+      "drs_fault": 0,
+      "engine_blown": 0,
+      "engine_control_electronics_wear": 0,
+      "engine_energy_store_qear": 0,
+      "engine_internal_combustion_engine_wear": 0,
+      "engine_mguh_wear": 0,
+      "engine_mguk_wear": 0,
+      "engine_seized": 0,
+      "engine_traction_control_wear": 0,
+      "engined_damage": 0,
+      "ers_fault": 0,
+      "floor_damage": 0,
+      "front_left_wing_damage": 0,
+      "front_right_wing_damage": 0,
+      "gearbox_damage": 0,
+      "rear_wing_damage": 0,
+      "sidepod_damage": 0,
+      "tyres_damage": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "tyres_wear": [
+        1.4794304370880127,
+        1.3884482383728027,
+        1.054909110069275,
+        1.1437033414840698
+      ]
+    },
+    {
+      "brakes_damage": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "diffuser_damage": 0,
+      "drs_fault": 0,
+      "engine_blown": 0,
+      "engine_control_electronics_wear": 0,
+      "engine_energy_store_qear": 0,
+      "engine_internal_combustion_engine_wear": 0,
+      "engine_mguh_wear": 0,
+      "engine_mguk_wear": 0,
+      "engine_seized": 0,
+      "engine_traction_control_wear": 0,
+      "engined_damage": 0,
+      "ers_fault": 0,
+      "floor_damage": 0,
+      "front_left_wing_damage": 0,
+      "front_right_wing_damage": 0,
+      "gearbox_damage": 0,
+      "rear_wing_damage": 0,
+      "sidepod_damage": 0,
+      "tyres_damage": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "tyres_wear": [
+        0.003930085804313421,
+        0.0039433506317436695,
+        0.0024899160489439964,
+        0.002635437063872814
+      ]
+    },
+    {
+      "brakes_damage": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "diffuser_damage": 0,
+      "drs_fault": 0,
+      "engine_blown": 0,
+      "engine_control_electronics_wear": 0,
+      "engine_energy_store_qear": 0,
+      "engine_internal_combustion_engine_wear": 0,
+      "engine_mguh_wear": 0,
+      "engine_mguk_wear": 0,
+      "engine_seized": 0,
+      "engine_traction_control_wear": 0,
+      "engined_damage": 0,
+      "ers_fault": 0,
+      "floor_damage": 0,
+      "front_left_wing_damage": 0,
+      "front_right_wing_damage": 0,
+      "gearbox_damage": 0,
+      "rear_wing_damage": 0,
+      "sidepod_damage": 0,
+      "tyres_damage": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "tyres_wear": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "brakes_damage": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "diffuser_damage": 0,
+      "drs_fault": 0,
+      "engine_blown": 0,
+      "engine_control_electronics_wear": 0,
+      "engine_energy_store_qear": 0,
+      "engine_internal_combustion_engine_wear": 0,
+      "engine_mguh_wear": 0,
+      "engine_mguk_wear": 0,
+      "engine_seized": 0,
+      "engine_traction_control_wear": 0,
+      "engined_damage": 0,
+      "ers_fault": 0,
+      "floor_damage": 0,
+      "front_left_wing_damage": 0,
+      "front_right_wing_damage": 0,
+      "gearbox_damage": 0,
+      "rear_wing_damage": 0,
+      "sidepod_damage": 0,
+      "tyres_damage": [
+        5,
+        5,
+        3,
+        3
+      ],
+      "tyres_wear": [
+        5.863946437835693,
+        5.472733020782471,
+        3.98055362701416,
+        3.959113359451294
+      ]
+    },
+    {
+      "brakes_damage": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "diffuser_damage": 0,
+      "drs_fault": 0,
+      "engine_blown": 0,
+      "engine_control_electronics_wear": 0,
+      "engine_energy_store_qear": 0,
+      "engine_internal_combustion_engine_wear": 0,
+      "engine_mguh_wear": 0,
+      "engine_mguk_wear": 0,
+      "engine_seized": 0,
+      "engine_traction_control_wear": 0,
+      "engined_damage": 0,
+      "ers_fault": 0,
+      "floor_damage": 0,
+      "front_left_wing_damage": 0,
+      "front_right_wing_damage": 0,
+      "gearbox_damage": 0,
+      "rear_wing_damage": 0,
+      "sidepod_damage": 0,
+      "tyres_damage": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "tyres_wear": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "brakes_damage": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "diffuser_damage": 0,
+      "drs_fault": 0,
+      "engine_blown": 0,
+      "engine_control_electronics_wear": 0,
+      "engine_energy_store_qear": 0,
+      "engine_internal_combustion_engine_wear": 0,
+      "engine_mguh_wear": 0,
+      "engine_mguk_wear": 0,
+      "engine_seized": 0,
+      "engine_traction_control_wear": 0,
+      "engined_damage": 0,
+      "ers_fault": 0,
+      "floor_damage": 0,
+      "front_left_wing_damage": 0,
+      "front_right_wing_damage": 0,
+      "gearbox_damage": 0,
+      "rear_wing_damage": 0,
+      "sidepod_damage": 0,
+      "tyres_damage": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "tyres_wear": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "brakes_damage": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "diffuser_damage": 0,
+      "drs_fault": 0,
+      "engine_blown": 0,
+      "engine_control_electronics_wear": 0,
+      "engine_energy_store_qear": 0,
+      "engine_internal_combustion_engine_wear": 0,
+      "engine_mguh_wear": 0,
+      "engine_mguk_wear": 0,
+      "engine_seized": 0,
+      "engine_traction_control_wear": 0,
+      "engined_damage": 0,
+      "ers_fault": 0,
+      "floor_damage": 0,
+      "front_left_wing_damage": 0,
+      "front_right_wing_damage": 0,
+      "gearbox_damage": 0,
+      "rear_wing_damage": 0,
+      "sidepod_damage": 0,
+      "tyres_damage": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "tyres_wear": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "brakes_damage": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "diffuser_damage": 0,
+      "drs_fault": 0,
+      "engine_blown": 0,
+      "engine_control_electronics_wear": 0,
+      "engine_energy_store_qear": 0,
+      "engine_internal_combustion_engine_wear": 0,
+      "engine_mguh_wear": 0,
+      "engine_mguk_wear": 0,
+      "engine_seized": 0,
+      "engine_traction_control_wear": 0,
+      "engined_damage": 0,
+      "ers_fault": 0,
+      "floor_damage": 0,
+      "front_left_wing_damage": 0,
+      "front_right_wing_damage": 0,
+      "gearbox_damage": 0,
+      "rear_wing_damage": 0,
+      "sidepod_damage": 0,
+      "tyres_damage": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "tyres_wear": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "brakes_damage": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "diffuser_damage": 0,
+      "drs_fault": 0,
+      "engine_blown": 0,
+      "engine_control_electronics_wear": 0,
+      "engine_energy_store_qear": 0,
+      "engine_internal_combustion_engine_wear": 0,
+      "engine_mguh_wear": 0,
+      "engine_mguk_wear": 0,
+      "engine_seized": 0,
+      "engine_traction_control_wear": 0,
+      "engined_damage": 0,
+      "ers_fault": 0,
+      "floor_damage": 0,
+      "front_left_wing_damage": 0,
+      "front_right_wing_damage": 0,
+      "gearbox_damage": 0,
+      "rear_wing_damage": 0,
+      "sidepod_damage": 0,
+      "tyres_damage": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "tyres_wear": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "brakes_damage": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "diffuser_damage": 0,
+      "drs_fault": 0,
+      "engine_blown": 0,
+      "engine_control_electronics_wear": 0,
+      "engine_energy_store_qear": 0,
+      "engine_internal_combustion_engine_wear": 0,
+      "engine_mguh_wear": 0,
+      "engine_mguk_wear": 0,
+      "engine_seized": 0,
+      "engine_traction_control_wear": 0,
+      "engined_damage": 0,
+      "ers_fault": 0,
+      "floor_damage": 0,
+      "front_left_wing_damage": 0,
+      "front_right_wing_damage": 0,
+      "gearbox_damage": 0,
+      "rear_wing_damage": 0,
+      "sidepod_damage": 0,
+      "tyres_damage": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "tyres_wear": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "header": {
+    "frame_identifier": 14966,
+    "game_major_version": 1,
+    "game_minor_version": 19,
+    "packet_format": 2022,
+    "packet_id": 10,
+    "packet_version": 1,
+    "player_car_index": 19,
+    "secondary_player_car_index": 255,
+    "session_time": 638.859,
+    "session_uid": 12079677482671850819
+  }
+}
