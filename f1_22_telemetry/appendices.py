@@ -3,7 +3,6 @@ More info is available here:
 https://answers.ea.com/t5/General-Discussion/F1-22-UDP-Specification/td-p/11551274?attachment-id=657933
 """
 
-
 TEAM_IDS = {
     0: 'Mercedes',
     1: 'Ferrari',
@@ -59,7 +58,6 @@ TEAM_IDS = {
     127: "Van Amersfoort Racing ‘22",
     128: "Trident ‘22",
 }
-
 
 DRIVER_IDS = {
     0: 'Carlos Sainz',
@@ -189,7 +187,6 @@ DRIVER_IDS = {
     138: "Mika Hakkinen",
 }
 
-
 TRACK_IDS = {
     0: 'Melbourne',
     1: 'Paul Ricard',
@@ -223,7 +220,6 @@ TRACK_IDS = {
     29: 'Jeddah',
     30: 'Miami',
 }
-
 
 NATIONALITY_IDS = {
     1: 'American',
@@ -315,7 +311,6 @@ NATIONALITY_IDS = {
     87: 'Vietnamese',
 }
 
-
 GAME_MODE = {
     0: 'Event Mode',
     3: 'Grand Prix',
@@ -333,7 +328,6 @@ GAME_MODE = {
     127: 'Benchmark',
 }
 
-
 RULESET_IDS = {
     0: 'Practice & Qualifying',
     1: 'Race',
@@ -345,7 +339,6 @@ RULESET_IDS = {
     10: 'Average Speed Zone',
     11: 'Rival Duel',
 }
-
 
 SURFACE_TYPES = {
     0: 'Tarmac',
@@ -361,7 +354,6 @@ SURFACE_TYPES = {
     10: 'Metal',
     11: 'Ridged',
 }
-
 
 PENALTY_TYPES = {
     0: 'Drive through',
@@ -383,7 +375,6 @@ PENALTY_TYPES = {
     16: 'Retired',
     17: 'Black flag timer',
 }
-
 
 INFRINGEMENT_TYPES = {
     0: 'Blocking by slow driving',
@@ -480,7 +471,6 @@ VISUAL_TYRE_COMPOUND = {
     22: 'hard',
 }
 
-
 WEATHER = {
     0: 'Clear',
     1: 'Light cloud',
@@ -490,6 +480,17 @@ WEATHER = {
     5: 'Storm',
 }
 
+TRACK_TEMPERATURE_CHANGE = {
+    0: "Up",
+    1: "Down",
+    2: "No change",
+}
+
+AIR_TEMPERATURE_CHANGE = {
+    0: "Up",
+    1: "Down",
+    2: "No change",
+}
 
 DRIVER_STATUS = {
     0: 'In garage',
@@ -499,9 +500,8 @@ DRIVER_STATUS = {
     4: 'On track',
 }
 
-
 SESSION_TYPE = {
-    0: 'unknown',
+    0: 'Unknown',
     1: 'Practice 1',
     2: 'Practice 2',
     3: 'Practice 3',
@@ -517,7 +517,6 @@ SESSION_TYPE = {
     13: 'Time Trial',
 }
 
-
 FORMULA = {
     0: "F1 Modern",
     1: "F1 Classic",
@@ -529,7 +528,6 @@ FORMULA = {
     7: "F2 2021",
 }
 
-
 SAFETY_CAR_STATUS = {
     0: "No safety car",
     1: "Full",
@@ -537,16 +535,93 @@ SAFETY_CAR_STATUS = {
     3: "Formation lap"
 }
 
-
 FORECAST_ACCURACY = {
     0: "Perfect",
     1: "Approximate"
 }
-
 
 ERS_DEPLOYMENT_MODE = {
     0: "None",
     1: "Medium",
     2: "Hot lap",
     3: "Overtake",
+}
+
+RESULT_STATUS = {
+    0: "Invalid",
+    1: "Inactive",
+    2: "Active",
+    3: "Finished",
+    4: "Did not finish",
+    5: "Disqualified",
+    6: "Not classified",
+    7: "Retired",
+}
+
+ERS_FAULT = {
+    0: "Ok",
+    1: "Fault",
+}
+
+DRS_FAULT = {
+    0: "Ok",
+    1: "Fault",
+}
+
+ENGINE_BLOWN = {
+    0: "Ok",
+    1: "Fault",
+}
+
+ENGINE_SEIZED = {
+    0: "Ok",
+    1: "Fault",
+}
+
+LAP_VALID_BIT_FLAGS = {
+    "0x01": "lap valid",
+    "0x02": "Sector 1 valid",
+    "0x04": "Sector 2 valid",
+    "0x08": "Sector 3 valid",
+}
+
+VEHICLE_FIA_FLAGS = {
+    -1: "Invalid/unknown",
+    0: "None",
+    1: "Green",
+    2: "Blue",
+    3: "Yellow",
+    4: "Red",
+}
+
+DRS_ALLOWED = {
+    0: "Not allowed",
+    1: "Allowed",
+}
+
+SECTOR = {
+    0: "Sector 1",
+    1: "Sector 2",
+    2: "Sector 3",
+}
+
+CURRENT_LAP_INVALID = {
+    0: "Valid",
+    1: "Invalid",
+}
+
+PIT_STATUS = {
+    0: "None",
+    1: "Pitting",
+    2: "In pit area",
+}
+
+SESSION_LENGTH = {
+    0: "None",
+    2: "Very short",
+    3: "Short",
+    4: "Medium",
+    5: "Medium long",
+    6: "Long",
+    7: "Full",
 }
