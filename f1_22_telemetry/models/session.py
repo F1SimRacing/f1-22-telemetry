@@ -9,7 +9,7 @@ class MarshalZone(BaseModel):
     zone_flag: str
     # percentage around the track from 0 to 1
     zone_start: float
-    
+
 
 class WeatherForcastSample(BaseModel):
     air_temperature: int  # in Celsius

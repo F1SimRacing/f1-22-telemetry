@@ -3,10 +3,12 @@ Basic listener to read the UDP packet and convert it to a known packet format.
 """
 
 import socket
+from enum import Enum
+from typing import Dict
 from typing import Optional
 
 from f1_22_telemetry.models.session import Session
-from f1_22_telemetry.models.session import build_session
+from f1_22_telemetry.logic.session import build_session
 from f1_22_telemetry.packets import PacketCarDamageData
 from f1_22_telemetry.packets import PacketCarSetupData
 from f1_22_telemetry.packets import PacketCarStatusData
@@ -20,6 +22,21 @@ from f1_22_telemetry.packets import PacketMotionData
 from f1_22_telemetry.packets import PacketParticipantsData
 from f1_22_telemetry.packets import PacketSessionData
 from f1_22_telemetry.packets import PacketSessionHistoryData
+
+
+class PacketType(Enum):
+    motion = (2022, 1, 0)
+    session = (2022, 1, 1)
+    lap = (2022, 1, 2)
+    event = (2022, 1, 3)
+    participants = (2022, 1, 4)
+    car_setup = (2022, 1, 5)
+    car_telemetry = (2022, 1, 6)
+    car_status = (2022, 1, 7)
+    final_classification = (2022, 1, 8)
+    lobby_info = (2022, 1, 9)
+    car_damage = (2022, 1, 10)
+    session_history = (2022, 1, 11)
 
 
 class TelemetryListener:
@@ -64,7 +81,7 @@ class TelemetryListener:
         packet = HEADER_FIELD_TO_PACKET_TYPE[key].unpack(packet)
         if key == (2022, 1, 0):
             pass
-        elif key == (2022, 1, 1):
+        elif key == PacketType.session:
             return build_session()
         elif key == (2022, 1, 2):
             pass
@@ -85,6 +102,49 @@ class TelemetryListener:
         elif key == (2022, 1, 10):
             pass
         elif key == (2022, 1, 11):
+            pass
+        else:
+            pass
+
+    def get_session(self) -> Session:
+        return self.get_specific_packet()
+
+    def get_specific_packet(self, key: PacketType):
+        found = False
+        packet: Dict = {}
+
+        for i in range(100):
+            packet = self.get()
+            header = packet['header']
+            packet_key = (header.packet_format, header.packet_version, header.packet_id)
+
+            if packet_key == key.value:
+                break
+
+        # build the packet and return it
+        if key.value == (2022, 1, 0):
+            pass
+        elif key.value == (2022, 1, 1):
+            return build_session(packet)
+        elif key.value == (2022, 1, 2):
+            pass
+        elif key.value == (2022, 1, 3):
+            pass
+        elif key.value == (2022, 1, 4):
+            pass
+        elif key.value == (2022, 1, 5):
+            pass
+        elif key.value == (2022, 1, 6):
+            pass
+        elif key.value == (2022, 1, 7):
+            pass
+        elif key.value == (2022, 1, 8):
+            pass
+        elif key.value == (2022, 1, 9):
+            pass
+        elif key.value == (2022, 1, 10):
+            pass
+        elif key.value == (2022, 1, 11):
             pass
         else:
             pass
