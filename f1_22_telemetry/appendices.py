@@ -528,17 +528,9 @@ FORMULA = {
     7: "F2 2021",
 }
 
-SAFETY_CAR_STATUS = {
-    0: "No safety car",
-    1: "Full",
-    2: "Virtual",
-    3: "Formation lap"
-}
+SAFETY_CAR_STATUS = {0: "No safety car", 1: "Full", 2: "Virtual", 3: "Formation lap"}
 
-FORECAST_ACCURACY = {
-    0: "Perfect",
-    1: "Approximate"
-}
+FORECAST_ACCURACY = {0: "Perfect", 1: "Approximate"}
 
 ERS_DEPLOYMENT_MODE = {
     0: "None",
@@ -675,4 +667,10 @@ DYNAMIC_RACING_LINE = {
 DYNAMIC_RACING_LINE_TYPE = {
     0: "2D",
     1: "3D",
+}
+
+# telemetry
+DRS = {
+    0: "Off",
+    1: "On",
 }

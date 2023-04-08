@@ -1,4 +1,4 @@
-from typing import Dict, List
+from typing import Dict
 
 from f1_22_telemetry.appendices import BRAKING_ASSIST, DRS_ASSIST, DYNAMIC_RACING_LINE, DYNAMIC_RACING_LINE_TYPE
 from f1_22_telemetry.appendices import ERS_ASSIST, FORECAST_ACCURACY, FORMULA, GAME_MODE_IDS, GEARBOX_ASSIST

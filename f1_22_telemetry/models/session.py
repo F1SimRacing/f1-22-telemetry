@@ -62,7 +62,6 @@ class Session(BaseModel):
     # SLI Pro support, 0 = inactive, 1 = active
     sli_pro_native_support: str
     num_marshal_zones: int  # Number of marshal zones to follow
-    marshal_zones: List[MarshalZone]  # List of marshal zones – max 21
     # 0 = no safety car, 1 = full, 2 = virtual, 3 = formation lap
     safety_car_status: str
     network_game: int  # 0 = offline, 1 = online

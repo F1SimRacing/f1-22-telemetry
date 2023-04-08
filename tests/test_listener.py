@@ -20,4 +20,4 @@ def test_listener_get_specific_packet_session(session_data):
 
     listener.get = mock_get()
     packet = listener.get_specific_packet(PacketType.session)
-    assert instance(packet, Session)
+    assert isinstance(packet, Session)

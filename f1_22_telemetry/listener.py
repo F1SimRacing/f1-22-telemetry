@@ -7,21 +7,23 @@ from enum import Enum
 from typing import Dict
 from typing import Optional
 
+from f1_22_telemetry.logic.car import build_car_telemetry
+from f1_22_telemetry.logic.participants import build_participants
 from f1_22_telemetry.models.session import Session
 from f1_22_telemetry.logic.session import build_session
-from f1_22_telemetry.packets import PacketCarDamageData
-from f1_22_telemetry.packets import PacketCarSetupData
-from f1_22_telemetry.packets import PacketCarStatusData
-from f1_22_telemetry.packets import PacketCarTelemetryData
-from f1_22_telemetry.packets import PacketEventData
-from f1_22_telemetry.packets import PacketFinalClassificationData
+# from f1_22_telemetry.packets import PacketCarDamageData
+# from f1_22_telemetry.packets import PacketCarSetupData
+# from f1_22_telemetry.packets import PacketCarStatusData
+# from f1_22_telemetry.packets import PacketCarTelemetryData
+# from f1_22_telemetry.packets import PacketEventData
+# from f1_22_telemetry.packets import PacketFinalClassificationData
 from f1_22_telemetry.packets import PacketHeader, HEADER_FIELD_TO_PACKET_TYPE
-from f1_22_telemetry.packets import PacketLapData
-from f1_22_telemetry.packets import PacketLobbyInfoData
-from f1_22_telemetry.packets import PacketMotionData
-from f1_22_telemetry.packets import PacketParticipantsData
-from f1_22_telemetry.packets import PacketSessionData
-from f1_22_telemetry.packets import PacketSessionHistoryData
+# from f1_22_telemetry.packets import PacketLapData
+# from f1_22_telemetry.packets import PacketLobbyInfoData
+# from f1_22_telemetry.packets import PacketMotionData
+# from f1_22_telemetry.packets import PacketParticipantsData
+# from f1_22_telemetry.packets import PacketSessionData
+# from f1_22_telemetry.packets import PacketSessionHistoryData
 
 
 class PacketType(Enum):
@@ -41,7 +43,6 @@ class PacketType(Enum):
 
 class TelemetryListener:
     def __init__(self, host: Optional[str] = None, port: Optional[int] = None):
-
         # Set to default port used by the game in telemetry setup.
         if not port:
             port = 20777
@@ -88,11 +89,11 @@ class TelemetryListener:
         elif key == (2022, 1, 3):
             pass
         elif key == (2022, 1, 4):
-            pass
+            return build_participants(packet)
         elif key == (2022, 1, 5):
             pass
         elif key == (2022, 1, 6):
-            pass
+            return build_car_telemetry(packet)
         elif key == (2022, 1, 7):
             pass
         elif key == (2022, 1, 8):
@@ -107,7 +108,7 @@ class TelemetryListener:
             pass
 
     def get_session(self) -> Session:
-        return self.get_specific_packet()
+        return self.get_specific_packet(PacketType.session)
 
     def get_specific_packet(self, key: PacketType):
         found = False
@@ -131,11 +132,11 @@ class TelemetryListener:
         elif key.value == (2022, 1, 3):
             pass
         elif key.value == (2022, 1, 4):
-            pass
+            return build_participants(packet)
         elif key.value == (2022, 1, 5):
             pass
         elif key.value == (2022, 1, 6):
-            pass
+            return build_car_telemetry(packet)
         elif key.value == (2022, 1, 7):
             pass
         elif key.value == (2022, 1, 8):
