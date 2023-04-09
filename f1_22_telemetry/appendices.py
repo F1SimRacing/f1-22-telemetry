@@ -311,7 +311,7 @@ NATIONALITY_IDS = {
     87: 'Vietnamese',
 }
 
-GAME_MODE = {
+GAME_MODE_IDS = {
     0: 'Event Mode',
     3: 'Grand Prix',
     5: 'Time Trial',
@@ -528,17 +528,9 @@ FORMULA = {
     7: "F2 2021",
 }
 
-SAFETY_CAR_STATUS = {
-    0: "No safety car",
-    1: "Full",
-    2: "Virtual",
-    3: "Formation lap"
-}
+SAFETY_CAR_STATUS = {0: "No safety car", 1: "Full", 2: "Virtual", 3: "Formation lap"}
 
-FORECAST_ACCURACY = {
-    0: "Perfect",
-    1: "Approximate"
-}
+FORECAST_ACCURACY = {0: "Perfect", 1: "Approximate"}
 
 ERS_DEPLOYMENT_MODE = {
     0: "None",
@@ -624,4 +616,61 @@ SESSION_LENGTH = {
     5: "Medium long",
     6: "Long",
     7: "Full",
+}
+
+SLI_PRO_SUPPORT = {
+    0: "Inactive",
+    1: "Active",
+}
+
+STEERING_ASSIST = {
+    0: "Off",
+    1: "On",
+}
+
+BRAKING_ASSIST = {
+    0: "Off",
+    1: "On",
+}
+
+GEARBOX_ASSIST = {
+    0: "Off",
+    1: "On",
+}
+
+PIT_ASSIST = {
+    0: "Off",
+    1: "On",
+}
+
+PIT_RELEASE_ASSIST = {
+    0: "Off",
+    1: "On",
+}
+
+ERS_ASSIST = {
+    0: "Off",
+    1: "On",
+}
+
+DRS_ASSIST = {
+    0: "Off",
+    1: "On",
+}
+
+DYNAMIC_RACING_LINE = {
+    0: "Off",
+    1: "Corners only",
+    2: "Full",
+}
+
+DYNAMIC_RACING_LINE_TYPE = {
+    0: "2D",
+    1: "3D",
+}
+
+# telemetry
+DRS = {
+    0: "Off",
+    1: "On",
 }

@@ -6,9 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.2] - 2023-04-09
+### Added
+* Update appendixes.
+
 ## [0.1.1] - 2022-12-24
 ### Added
-* Decodes for codes in the payloads, driver ids  to names etc.
+* Decodes for codes in the payloads, driver ids to names etc.
 
 ## [0.1.0] - 2022-12-24
 ### Fixed
